@@ -1,0 +1,208 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+  }
+  a {
+    text-decoration: none !important;
+  }
+  li {
+    list-style: none;
+  }
+  
+  html {
+    font-size: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    margin: 0px;
+    padding: 0px;
+    touch-action: manipulation;
+    scroll-behavior: smooth;
+  }
+  body {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    color: #101010;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    word-wrap: break-word;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Playfair Display", serif !important;
+    font-weight: 400;
+  }
+  .button {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    /* font-size: 13px; */
+    text-transform: uppercase;
+    letter-spacing: 3px;
+  }
+  .nav-logo{
+    color: #dd7564;
+    font-family: "Playfair Display", serif;
+}
+.nav-logo:hover{
+    color: #dd7564;
+}
+
+.legal-notice{
+    width: 80%;
+    margin: 0 auto;
+    padding: 3rem;
+  }
+  .legal-notice>.heading{
+    color: #2b2a35;
+    font-size: 5rem;
+    margin-bottom: 2rem;
+  }
+  .legal-notice h5{
+    color: #545465;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+  }
+  .legal-notice p{
+      color: #7d7d96;
+  }
+
+  @media only screen and (max-width: 768px){
+    .legal-notice{
+        width: 90%;
+        padding: 3rem 0;
+      }
+  }
+
+
+  /* footer */
+footer {
+    background-color: #ba5748;
+    /* height: 50vh; */
+    padding: 5% 10%;
+    color: white;
+    display: flex !important;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+  }
+  footer p {
+    font-size: 0.8rem !important;
+  }
+  footer a {
+    font-size: 0.8rem;
+    color: white;
+  }
+  footer > .brand {
+    display: flex;
+    flex-direction: column;
+    width: 24%;
+    margin-right: 4%;
+  }
+  footer > .brand > .part1 h1 {
+    color: white;
+    font-size: 1.7rem;
+  }
+  footer > .brand > .part1 > .socials {
+    margin-top: 1rem;
+    display: flex;
+    gap: 10px;
+  }
+  footer > .brand > .part1 > .socials i {
+    font-size: 1.5rem;
+    color: white;
+    padding: 8px 10px;
+    background-color: #ffffff80;
+    border-radius: 50%;
+  }
+  footer > .brand > .part1 > .socials i:hover {
+    background-color: transparent;
+  }
+  footer > .brand > .part2 {
+    display: flex;
+    flex-direction: column;
+    color: #ffffff80;
+    margin-top: 15%;
+  }
+  footer > .brand > .part2 a {
+    color: #ffffff80;
+    margin-top: 5%;
+  }
+  footer > .brand > .part2 a:hover{
+      text-decoration: none;
+      color: white;
+  }
+  .about a:hover, 
+  .products a:hover, 
+  .learn a:hover, 
+  .connect a:hover{
+      color: white;
+      text-decoration: none;
+  }
+  footer > .about {
+    width: 18%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+  }
+  footer > .products {
+    width: 18%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+  }
+  footer > .learn {
+    width: 18%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+  }
+  footer > .connect {
+    width: 18%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+  }
+  footer .heading {
+    margin-bottom: 0.8rem;
+    color: #ffffff80;
+    font-weight: 600;
+  }
+  @media only screen and (max-width: 768px){
+    footer > .brand {
+        display: flex;
+        /* flex-direction: row; */
+        width: 100%;
+        align-items: flex-start;
+        gap: 25%;
+        margin-right: 0;
+      }
+      footer > .about {
+        width: 50%;
+        margin-top: 2rem;
+      }
+      footer > .products {
+        width: 50%;
+        margin-top: 2rem;
+      }
+      footer > .learn {
+        width: 50%;
+        margin-top: 2rem;
+      }
+      footer > .connect {
+        width: 50%;
+        margin-top: 2rem;
+      }
+  }
+  @media only screen and (max-width: 767px){
+      footer{
+          margin-top: 25rem;
+      }
+  }
