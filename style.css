@@ -782,7 +782,7 @@ footer .heading {
   }
   .old-lady>.stuff img{
     margin-right: 0;
-    margin-left: 2rem;
+    margin-left: 2rem !important;
   }
   .old-lady > .active-ingredients {
     margin-left: 0;

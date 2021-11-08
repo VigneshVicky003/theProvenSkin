@@ -25,16 +25,19 @@ textarea{
 }
 .contact-info{
     margin-top:10%;
-    color: white;
+    color: white !important;
     display: flex;
     flex-direction: column;
     padding-left: 1rem;
 }
 .contact-info h2{
     margin-bottom: 10%;
+    color: white;
 }
 .contact-info h4{
     margin-bottom: 7%;
+    color: white;
+    font-size: 1.4rem;
 }
 .contact-info a{
     margin-bottom: 7%;
@@ -85,7 +88,11 @@ textarea{
     color: white;
     background: linear-gradient(105deg, #f5d69b 0%, #dd7564 100%);
 }
-
+@media only screen and (max-width: 825px) and (orientation: landscape){
+  .contact-info a{
+    font-size: .8rem;
+  }
+}
 
 /* footer */
 footer {
