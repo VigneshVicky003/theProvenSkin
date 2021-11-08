@@ -627,7 +627,7 @@ footer > .brand > .part2 a {
   color: #ffffff80;
   margin-top: 5%;
 }
-footer > .brand > .part2 a:hover{
+footer > .brand > .part2 a:hover {
   text-decoration: none;
   color: white;
 }
@@ -660,7 +660,6 @@ footer .heading {
   color: #ffffff80;
   font-weight: 600;
 }
-
 
 @media only screen and (max-width: 768px) {
   .nav-logo img {
@@ -780,7 +779,7 @@ footer .heading {
     width: 100%;
     margin: 2rem 0;
   }
-  .old-lady>.stuff img{
+  .old-lady > .stuff img {
     margin-right: 0;
     margin-left: 2rem !important;
   }
@@ -889,7 +888,7 @@ footer .heading {
   .about-you > .typo p {
     font-size: 1rem;
   }
-  
+
   footer > .brand {
     display: flex;
     /* flex-direction: row; */
@@ -898,7 +897,7 @@ footer .heading {
     gap: 25%;
     margin-right: 0;
   }
-  
+
   footer > .about {
     width: 50%;
     margin-top: 2rem;
@@ -1003,6 +1002,9 @@ footer .heading {
   }
   .about-you > .typo p {
     font-size: 1rem;
+  }
+  footer > .brand > .part1 h1 {
+    font-size: 1.3rem !important;
   }
 }
 

@@ -14,7 +14,7 @@
       href="https://fonts.googleapis.com/css?family=Montserrat:300,700|Playfair+Display:400i,400|Fugaz+One"
       rel="stylesheet"
     />
-    
+
     <title>TheProvenSkin</title>
   </head>
   <body>
@@ -175,9 +175,10 @@
           <h2 class="num"><b>01</b></h2>
           <h1 class="heading"><b>Personalized</b></h1>
           <p>
-            By providing the details about your skin type,your activity and your environment, PROVENSKIN custom
-            formulates a skincare routine specifically for your skin, lifestyle,
-            environment and skin concerns.
+            By providing the details about your skin type,your activity and your
+            environment, PROVENSKIN custom formulates a skincare routine
+            specifically for your skin, lifestyle, environment and skin
+            concerns.
           </p>
         </div>
       </div>
@@ -210,9 +211,9 @@
           <h2 class="num"><b>04</b></h2>
           <h1 class="heading"><b>Evidence-based</b></h1>
           <p>
-            The power behind PROVENSKIN is our award-winning Skin Genome Project™
-            database, which uses the wisdom of 4,000 scientific papers and 20
-            Million consumer reviews to understand what works for you.
+            The power behind PROVENSKIN is our award-winning Skin Genome
+            Project™ database, which uses the wisdom of 4,000 scientific papers
+            and 20 Million consumer reviews to understand what works for you.
           </p>
         </div>
       </div>
@@ -342,9 +343,9 @@
           deliver real results. There had to be a better way.
         </p>
         <p>
-          Using Chandrika’s scientific expertise, we created a holistic approach to
-          skincare that's completely backed by data. This shared passion became
-          the world’s largest skincare database:
+          Using Chandrika’s scientific expertise, we created a holistic approach
+          to skincare that's completely backed by data. This shared passion
+          became the world’s largest skincare database:
           <b>The Skin Genome Project<sup>TM</sup></b
           >. And it lets us tailor-make every PROVENSKIN formula just for you.
         </p>
@@ -380,8 +381,8 @@
           - The water hardness, humidity level, and UV index where you live.
         </p>
         <p>
-          Using the information you provide to us, our database instantly
-          sifts through this incredible amount of information to select the best
+          Using the information you provide to us, our database instantly sifts
+          through this incredible amount of information to select the best
           ingredients for your skin.
         </p>
         <p>
@@ -443,7 +444,7 @@
     <script src="/script.js"></script>
     <script>
       var form = document.getElementById("my-form");
-      
+
       async function handleSubmit(event) {
         event.preventDefault();
         var status = document.getElementById("my-form-status");
@@ -452,16 +453,18 @@
           method: form.method,
           body: data,
           headers: {
-              'Accept': 'application/json'
-          }
-        }).then(response => {
-          status.innerHTML = "Thanks for your submission!";
-          form.reset()
-        }).catch(error => {
-          status.innerHTML = "Oops! There was a problem submitting your form"
-        });
+            Accept: "application/json",
+          },
+        })
+          .then((response) => {
+            status.innerHTML = "Thanks for your submission!";
+            form.reset();
+          })
+          .catch((error) => {
+            status.innerHTML = "Oops! There was a problem submitting your form";
+          });
       }
-      form.addEventListener("submit", handleSubmit)
-  </script>
+      form.addEventListener("submit", handleSubmit);
+    </script>
   </body>
 </html>
